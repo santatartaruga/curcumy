@@ -1,0 +1,360 @@
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/montserrat-v25-latin-900italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/montserrat-v25-latin-900italic.woff') format('woff'); /* Modern Browsers */
+    font-style: italic;
+    font-weight: 900;
+    font-display: swap;
+}
+
+
+      
+        
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/poppins-v20-latin-regular.woff2') format('woff2'),
+         url('fonts/poppins-v20-latin-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;        
+}
+
+
+
+@font-face {
+    font-family: 'fjalla_oneregular';
+    src: url('fonts/fjallaone-regular-webfont.woff2') format('woff2'),
+         url('fonts/fjallaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'special_eliteregular';
+    src: url('fonts/specialelite-regular-webfont.woff2') format('woff2'),
+         url('fonts/specialelite-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    font-family: helvetica,arial,sans-serif
+}
+
+body {
+    font-size: 16px;
+}
+
+
+.comments {
+    box-sizing: border-box;
+    display: block;
+
+}
+
+
+.py-4 {
+    box-sizing: border-box;
+    display: block;
+
+}
+
+
+.row {
+    box-sizing: border-box;
+
+}
+
+
+
+.justify-content-center {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    max-width:100%;
+    justify-content: center!important;    
+}
+
+
+.col-lg-8 {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width:720px;
+}
+
+
+.fb-comments {
+    border: 1px solid #e9ebee;
+    border-radius: 3px;
+    padding: 0 15px;
+    padding-bottom: 15px;
+    margin: auto;
+    position: relative;
+    color: #4267b2
+}
+
+.fb-comments-header {
+    padding: 15px 0;
+    border-bottom: 1px solid #e9ebee
+}
+
+.fb-comments-header span {
+    color: #000;
+    font-weight: 700;
+    font-size: .9em
+}
+
+.fb-comments-comment {
+    border: none;
+    padding: 0;
+    margin: 10px 0;
+    width: 100%
+}
+
+.fb-comments-reply-wrapper {
+    margin-left: 60px;
+    border-left: 1px dotted #e9ebee;
+    padding-left: 5px
+}
+
+tr,td {
+    border: none;
+    margin: 0
+}
+
+td {
+    padding: 2.5px
+}
+
+tr {
+    padding: 2.5px 0
+}
+
+.fb-comments-comment-img {
+    vertical-align: top;
+    width: 48px;
+    padding-right: 5px
+}
+
+.fb-comments-comment-img img {
+    max-width: 48px;
+    border-radius: 25px
+}
+
+.fb-comments-comment-name {
+    font-size: .85em
+}
+
+.fb-comments-comment-name name {
+    color: #365899;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+    cursor: hand
+}
+
+.fb-comments-comment-name name:hover {
+    text-decoration: underline
+}
+
+.fb-comments-comment-name occupation {
+    color: #90949c
+}
+
+.fb-comments-comment-text {
+    font-size: .9em;
+    color: #000;
+    border-radius: 21px;
+    background-color: #eaebef;
+    padding: 10px 20px
+}
+
+.fb-comments-comment-actions like,.fb-comments-comment-actions reply {
+    font-size: .75em;
+    color: #4267b2;
+    text-decoration: none;
+    cursor: pointer;
+    cursor: hand
+}
+
+.fb-comments-comment-actions like.liked {
+    color: #90949c
+}
+
+.fb-comments-comment-actions like:hover,.fb-comments-comment-actions reply:hover {
+    text-decoration: underline
+}
+
+.fb-comments-comment-actions likes {
+    font-size: 13px;
+    background: url(https://hostly.netlify.app/likes.png);
+    background-repeat: no-repeat;
+    padding-left: 43px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    margin-top: -10px;
+    float: right;
+    background-color: #fff;
+    border: solid #eaebef;
+    border-radius: 19px
+}
+
+.fb-comments-comment-actions date {
+    font-size: .75em;
+    color: #90949c;
+    text-decoration: none;
+    cursor: pointer;
+    cursor: hand
+}
+
+.fb-comments-comment-actions date:hover {
+    text-decoration: underline
+}
+
+.fb-comments-loadmore {
+    background: #4080ff;
+    border: 1px solid #4080ff;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 14px;
+    padding: .875em;
+    text-shadow: none;
+    width: 100%;
+    font-weight: 700;
+    cursor: hand;
+    cursor: pointer
+}
+
+.fb-reply-input {
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    width: 100%;
+    padding: 5px 7.5px;
+    font-size: .75em;
+    color: #000;
+    outline: none
+}
+
+.fb-reply-input:hover,.fb-reply-button:hover {
+    outline: none
+}
+
+.fb-reply-button {
+    background: #4080ff;
+    border: 1px solid #4080ff;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: .75em;
+    padding: 5px 7.5px;
+    text-shadow: none;
+    width: 100%;
+    font-weight: 700;
+    cursor: hand;
+    cursor: pointer;
+    outline: none
+}
+
+
+/*FAQ*/
+
+.title-faq {
+    background-color: #1a5276;
+    margin-top: 20px;
+}
+
+
+.title-faq > h2 {
+    font-family: 'Montserrat';
+    font-size: 42px;
+    color:#DFFF00;
+    text-align: center;
+    padding: 15px 0 0 0;
+    border: 0;
+  }
+
+.faq {
+    background-color: #1a5276;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.faq-div {
+    background: #1a5276;
+    width: 720px;
+    margin: 20px 0 35px;
+}
+
+input {
+    display: none;
+}
+
+label {
+    display: block;    
+    padding: 10px 22px;
+    margin: 10px 0 0px 0;
+    cursor: pointer;
+    background: #072f48;
+    border-radius: 0px;
+    color: #FFF;
+    transition: ease .5s;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+
+label:hover {
+    background: #072f48;
+    color:#DFFF00;
+}
+
+.content {
+    padding: 10px 25px;
+    margin: 0 0 20px 0;
+    border-radius: 0px;
+    font-size: 17px;
+    color: #FFF;
+    text-align: center;
+    background-color: #072f48;
+
+}
+
+input + label + .content {
+    display: none;
+}
+
+input:checked + label + .content {
+    display: block;
+}
+
+
+/*FOOTER*/
+.text-rodape {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+  }
+
+
+  a:hover {
+    text-decoration:underline;
+  }
+
+  .container-footer {
+    box-sizing: border-box;
+    display: block;
+    padding: 25px 0 15px;
+    background-color: #072f48;
+  }
